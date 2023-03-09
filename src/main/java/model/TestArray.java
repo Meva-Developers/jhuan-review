@@ -33,7 +33,7 @@ public class TestArray {
         for (AllCustomers customers : lista )
         { System.out.println(customers.getNome() + ", " + customers.getProfissao()); }
 
-       // lista.forEach((customer) -> System.out.println(customer.getNome() + ", " + customer.getProfissao()));
+        lista.forEach((customer) -> System.out.println(customer.getNome() + ", " + customer.getProfissao()));
 
     }
 }
